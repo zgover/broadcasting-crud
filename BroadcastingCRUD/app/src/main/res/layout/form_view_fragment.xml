@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="16dp">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAppearance="@style/TextLabel"
+		android:text="@string/first_name"/>
+
+	<EditText
+		android:id="@+id/fNameText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="text"/>
+
+	<TextView
+		android:paddingTop="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAppearance="@style/TextLabel"
+		android:text="@string/last_name"/>
+
+	<EditText
+		android:id="@+id/lNameText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="text"/>
+
+	<TextView
+		android:paddingTop="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAppearance="@style/TextLabel"
+		android:text="@string/age"/>
+
+	<EditText
+		android:id="@+id/ageText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:maxLength="3"/>
+
+</LinearLayout>
